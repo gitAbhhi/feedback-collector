@@ -14,6 +14,7 @@ app.use(bodyParser.json());
 // Path to JSON file
 const filePath = './feedback.json';
 
+//post request for submit feedback
 app.post('/submit-feedback', async (req, res) => {
   const feedback = req.body;
 
@@ -30,6 +31,7 @@ app.post('/submit-feedback', async (req, res) => {
   }
 });
 
+//get request for get all feedbacks
 app.get('/feedbacks', async (req, res) => {
     try {
       const data = await readFile(filePath, 'utf-8');
