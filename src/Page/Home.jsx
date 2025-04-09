@@ -1,13 +1,12 @@
-// import React from 'react'
-// import Form from "../Components/Form"
+import React from 'react'
+import Form from "../Components/Form"
 
-// const Home = () => {
-//   return (
-//    <>
-//    <Form/>
-//    {/* <AdminPage/> */}
-//    </>
-//   )
-// }
+const Home = () => {
+  return (
+   <>
+   <Form/>
+   </>
+  )
+}
 
-// export default Home
+export default Home
